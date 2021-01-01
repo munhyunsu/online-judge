@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmoj\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 18:29+0000\n"
-"PO-Revision-Date: 2020-08-23 18:58\n"
+"POT-Creation-Date: 2020-12-20 00:00+0000\n"
+"PO-Revision-Date: 2021-01-01 00:43\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -18,66 +18,70 @@ msgstr ""
 "X-Crowdin-File-ID: 10\n"
 
 #: dmoj/settings.py:361
+msgid "Catalan"
+msgstr "加泰隆语"
+
+#: dmoj/settings.py:362
 msgid "German"
 msgstr "德语"
 
-#: dmoj/settings.py:362
+#: dmoj/settings.py:363
 msgid "English"
 msgstr "英语"
 
-#: dmoj/settings.py:363
+#: dmoj/settings.py:364
 msgid "Spanish"
 msgstr "西班牙语"
 
-#: dmoj/settings.py:364
+#: dmoj/settings.py:365
 msgid "French"
 msgstr "法语"
 
-#: dmoj/settings.py:365
+#: dmoj/settings.py:366
 msgid "Croatian"
 msgstr "克罗地亚语"
 
-#: dmoj/settings.py:366
+#: dmoj/settings.py:367
 msgid "Hungarian"
 msgstr "匈牙利语"
 
-#: dmoj/settings.py:367
+#: dmoj/settings.py:368
 msgid "Japanese"
 msgstr "日语"
 
-#: dmoj/settings.py:368
+#: dmoj/settings.py:369
 msgid "Korean"
 msgstr "韩语"
 
-#: dmoj/settings.py:369
+#: dmoj/settings.py:370
 msgid "Brazilian Portuguese"
 msgstr "巴西葡萄牙语"
 
-#: dmoj/settings.py:370
+#: dmoj/settings.py:371
 msgid "Romanian"
 msgstr "罗马尼亚语"
 
-#: dmoj/settings.py:371
+#: dmoj/settings.py:372
 msgid "Russian"
 msgstr "俄语"
 
-#: dmoj/settings.py:372
+#: dmoj/settings.py:373
 msgid "Serbian (Latin)"
 msgstr "塞尔维亚文（拉丁字母）"
 
-#: dmoj/settings.py:373
+#: dmoj/settings.py:374
 msgid "Turkish"
 msgstr "土耳其语"
 
-#: dmoj/settings.py:374
+#: dmoj/settings.py:375
 msgid "Vietnamese"
 msgstr "越南语"
 
-#: dmoj/settings.py:375
+#: dmoj/settings.py:376
 msgid "Simplified Chinese"
 msgstr "简体中文"
 
-#: dmoj/settings.py:376
+#: dmoj/settings.py:377
 msgid "Traditional Chinese"
 msgstr "繁体中文"
 
@@ -115,8 +119,8 @@ msgstr "带标签的竞赛"
 
 #: judge/admin/contest.py:64 templates/contest/contest.html:83
 #: templates/contest/moss.html:43 templates/problem/list.html:206
-#: templates/problem/list.html:221 templates/user/user-problems.html:56
-#: templates/user/user-problems.html:98
+#: templates/problem/list.html:221 templates/user/user-problems.html:58
+#: templates/user/user-problems.html:100
 msgid "Problem"
 msgstr "题目"
 
@@ -172,21 +176,21 @@ msgstr "隐藏选定竞赛"
 #, python-format
 msgid "%d contest successfully locked."
 msgid_plural "%d contests successfully locked."
-msgstr[0] ""
+msgstr[0] "%d个竞赛锁定成功"
 
 #: judge/admin/contest.py:231
 msgid "Lock contest submissions"
-msgstr ""
+msgstr "锁定竞赛提交"
 
 #: judge/admin/contest.py:237
 #, python-format
 msgid "%d contest successfully unlocked."
 msgid_plural "%d contests successfully unlocked."
-msgstr[0] ""
+msgstr[0] "%d个竞赛解锁成功。"
 
 #: judge/admin/contest.py:240
 msgid "Unlock contest submissions"
-msgstr ""
+msgstr "解锁竞赛提交"
 
 #: judge/admin/contest.py:261 judge/admin/submission.py:170
 #, python-format
@@ -224,8 +228,8 @@ msgstr "内容"
 msgid "Summary"
 msgstr "概要"
 
-#: judge/admin/interface.py:113 judge/models/contest.py:361
-#: judge/models/contest.py:486 judge/models/profile.py:241
+#: judge/admin/interface.py:113 judge/models/contest.py:364
+#: judge/models/contest.py:490 judge/models/profile.py:241
 #: judge/models/profile.py:265
 msgid "user"
 msgstr "用户"
@@ -254,7 +258,7 @@ msgstr "分类"
 #: judge/admin/problem.py:131 templates/contest/contest.html:84
 #: templates/problem/data.html:394 templates/problem/list.html:211
 #: templates/problem/list.html:232 templates/user/base-users-table.html:10
-#: templates/user/user-problems.html:58
+#: templates/user/user-problems.html:60
 msgid "Points"
 msgstr "分数"
 
@@ -280,11 +284,11 @@ msgstr "作者"
 #, python-format
 msgid "%d problem's publish date successfully updated."
 msgid_plural "%d problems' publish date successfully updated."
-msgstr[0] ""
+msgstr[0] "%d 个问题的发表日期更新成功。"
 
 #: judge/admin/problem.py:195
 msgid "Set publish date to now"
-msgstr ""
+msgstr "设发表日期为现在。"
 
 #: judge/admin/problem.py:201
 #, python-format
@@ -453,7 +457,7 @@ msgstr "在线评测系统"
 msgid "Comment body"
 msgstr "评论正文"
 
-#: judge/comments.py:47 judge/views/ticket.py:46
+#: judge/comments.py:47 judge/views/comment.py:40 judge/views/ticket.py:46
 msgid "Your part is silent, little toad."
 msgstr "你已被静音……"
 
@@ -467,7 +471,7 @@ msgstr "发布了评论"
 
 #: judge/contest_format/atcoder.py:19
 msgid "AtCoder"
-msgstr ""
+msgstr "AtCoder"
 
 #: judge/contest_format/default.py:18
 msgid "Default"
@@ -475,11 +479,11 @@ msgstr "默认 "
 
 #: judge/contest_format/ecoo.py:18
 msgid "ECOO"
-msgstr ""
+msgstr "ECOO"
 
 #: judge/contest_format/icpc.py:19
 msgid "ICPC"
-msgstr ""
+msgstr "ICPC"
 
 #: judge/contest_format/ioi.py:11
 msgid "IOI"
@@ -487,23 +491,23 @@ msgstr "国际信息学奥林匹克竞赛"
 
 #: judge/contest_format/legacy_ioi.py:18
 msgid "IOI (pre-2016)"
-msgstr ""
+msgstr "IOI (2016年之前)"
 
 #: judge/forms.py:26
 msgid "Two-factor authentication tokens must be 6 decimal digits."
-msgstr ""
+msgstr "双重验证号码必须是 6 位数。"
 
 #: judge/forms.py:29
 msgid "Invalid two-factor authentication token."
-msgstr ""
+msgstr "无效的双重验证码。"
 
 #: judge/forms.py:32
 msgid "Scratch codes must be 16 base32 characters."
-msgstr ""
+msgstr "一次性双重验证码必须是16个32十进制字符。"
 
 #: judge/forms.py:34
 msgid "Invalid scratch code."
-msgstr ""
+msgstr "无效的一次性代码。"
 
 #: judge/forms.py:45
 msgid "Subscribe to contest updates"
@@ -520,31 +524,31 @@ msgstr "你不能参与超过 {count} 个组织"
 
 #: judge/forms.py:91
 msgid "Download comments?"
-msgstr ""
+msgstr "下载评论？"
 
 #: judge/forms.py:92
 msgid "Download submissions?"
-msgstr ""
+msgstr "下载提交？"
 
 #: judge/forms.py:93
 msgid "Filter by problem code glob:"
-msgstr ""
+msgstr "按问题代码glob过滤："
 
 #: judge/forms.py:97
 msgid "Leave empty to include all submissions"
-msgstr ""
+msgstr "留空以包含所有提交"
 
 #: judge/forms.py:100 templates/problem/manage_submission.html:142
 msgid "Filter by result:"
-msgstr ""
+msgstr "以结果过滤"
 
 #: judge/forms.py:106
 msgid "Please select at least one thing to download."
-msgstr ""
+msgstr "请选择下载至少一个东西。"
 
 #: judge/forms.py:132
 msgid "Any judge"
-msgstr ""
+msgstr "任何裁判服务器"
 
 #: judge/forms.py:162 judge/views/register.py:26
 #: templates/registration/registration_form.html:139
@@ -559,27 +563,27 @@ msgstr "密码"
 
 #: judge/forms.py:196
 msgid "Invalid code length."
-msgstr ""
+msgstr "无效的代码长度。"
 
 #: judge/forms.py:214
 msgid "Invalid WebAuthn response."
-msgstr ""
+msgstr "WebAuthn回复无效。"
 
 #: judge/forms.py:217
 msgid "No WebAuthn challenge issued."
-msgstr ""
+msgstr "未发出WebAuthn质疑。"
 
 #: judge/forms.py:223
 msgid "Invalid WebAuthn credential ID."
-msgstr ""
+msgstr "无效的WebAuthn凭据ID。"
 
 #: judge/forms.py:252
 msgid "Invalid two-factor authentication token or scratch code."
-msgstr ""
+msgstr "无效的双重验证码或者一次性代码。"
 
 #: judge/forms.py:254
 msgid "Must specify either totp_token or webauthn_response."
-msgstr ""
+msgstr "必须指定 totp_token 或 webauthn_response。"
 
 #: judge/forms.py:258 judge/models/problem.py:97
 msgid "Problem code must be ^[a-z0-9]+$"
@@ -595,7 +599,7 @@ msgstr "竞赛标识必须匹配 ^[a-z0-9]+$"
 
 #: judge/forms.py:273
 msgid "Contest with key already exists."
-msgstr ""
+msgstr "有这个代码的竞赛已经存在"
 
 #: judge/jinja2/datetime.py:26 templates/blog/content.html:27
 #: templates/blog/dashboard.html:21
@@ -634,7 +638,7 @@ msgstr "检测最佳质量"
 
 #: judge/models/comment.py:25
 msgid "Page code must be ^[pcs]:[a-z0-9]+$|^b:\\d+$"
-msgstr ""
+msgstr "页代码必须匹配 ^[pcs]:[a-z0-9]+$|^b:\\d+$"
 
 #: judge/models/comment.py:41
 msgid "commenter"
@@ -646,7 +650,7 @@ msgstr "发布时间"
 
 #: judge/models/comment.py:43 judge/models/comment.py:196
 msgid "associated page"
-msgstr ""
+msgstr "关联页"
 
 #: judge/models/comment.py:45
 msgid "votes"
@@ -673,7 +677,7 @@ msgid "comments"
 msgstr "评论"
 
 #: judge/models/comment.py:89 judge/models/comment.py:141
-#: judge/models/problem.py:475
+#: judge/models/problem.py:476
 #, python-format
 msgid "Editorial for %s"
 msgstr "%s 的题解"
@@ -688,7 +692,7 @@ msgstr "评论投票"
 
 #: judge/models/comment.py:201
 msgid "Override comment lock"
-msgstr ""
+msgstr "覆盖评论锁"
 
 #: judge/models/contest.py:28
 msgid "Invalid colour."
@@ -730,7 +734,7 @@ msgstr "竞赛名称"
 msgid "These people will be able to edit the contest."
 msgstr "这些人将可以编辑竞赛。"
 
-#: judge/models/contest.py:62 judge/models/runtime.py:183
+#: judge/models/contest.py:62 judge/models/runtime.py:136
 #: src/dmoj-wpadmin/test_project/apps/books/admin.py:20
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:13
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:27
@@ -741,12 +745,12 @@ msgstr "这些人将可以编辑竞赛。"
 msgid "description"
 msgstr "描述"
 
-#: judge/models/contest.py:63 judge/models/problem.py:422
-#: judge/models/runtime.py:185
+#: judge/models/contest.py:63 judge/models/problem.py:423
+#: judge/models/runtime.py:138
 msgid "problems"
 msgstr "题目"
 
-#: judge/models/contest.py:64 judge/models/contest.py:362
+#: judge/models/contest.py:64 judge/models/contest.py:365
 msgid "start time"
 msgstr "开始时间"
 
@@ -755,7 +759,7 @@ msgid "end time"
 msgstr "结束时间"
 
 #: judge/models/contest.py:66 judge/models/problem.py:118
-#: judge/models/problem.py:446
+#: judge/models/problem.py:447
 msgid "time limit"
 msgstr "时间限制"
 
@@ -785,11 +789,11 @@ msgstr "记分牌是否在比赛期间保持隐藏。"
 
 #: judge/models/contest.py:77
 msgid "view contest scoreboard"
-msgstr ""
+msgstr "查看竞赛记分板"
 
 #: judge/models/contest.py:79
 msgid "These users will be able to view the scoreboard."
-msgstr ""
+msgstr "这些用户将能够查看记分板。"
 
 #: judge/models/contest.py:80
 msgid "no comments"
@@ -801,11 +805,11 @@ msgstr "请使用澄清系统，而不是评论"
 
 #: judge/models/contest.py:83
 msgid "Rating floor for contest"
-msgstr ""
+msgstr "竞赛最低评分"
 
 #: judge/models/contest.py:85
 msgid "Rating ceiling for contest"
-msgstr ""
+msgstr "竞赛最高评分"
 
 #: judge/models/contest.py:87
 msgid "rate all"
@@ -821,15 +825,15 @@ msgstr "不会被评分"
 
 #: judge/models/contest.py:90
 msgid "private to specific users"
-msgstr ""
+msgstr "私密给特定用户"
 
 #: judge/models/contest.py:91
 msgid "private contestants"
-msgstr ""
+msgstr "秘密参赛者"
 
 #: judge/models/contest.py:92
 msgid "If private, only these users may see the contest"
-msgstr ""
+msgstr "如果是私密的，只有这些用户可以看到比赛"
 
 #: judge/models/contest.py:94
 msgid "hide problem tags"
@@ -858,7 +862,7 @@ msgstr "组织"
 
 #: judge/models/contest.py:104
 msgid "If private, only these organizations may see the contest"
-msgstr "选中时，只对选择的组织才可见"
+msgstr "隐藏时，只对选择的组织才可见"
 
 #: judge/models/contest.py:105 judge/models/problem.py:145
 msgid "OpenGraph image"
@@ -866,11 +870,11 @@ msgstr "OpenGraph 图像"
 
 #: judge/models/contest.py:106 judge/models/profile.py:57
 msgid "Logo override image"
-msgstr ""
+msgstr "覆盖标志的图片"
 
 #: judge/models/contest.py:108
 msgid "This image will replace the default site logo for users inside the contest."
-msgstr ""
+msgstr "此图片将替换比赛中用户的默认网站标识。"
 
 #: judge/models/contest.py:111
 msgid "the amount of live participants"
@@ -898,240 +902,248 @@ msgstr "不受欢迎人物"
 
 #: judge/models/contest.py:118
 msgid "Bans the selected users from joining this contest."
-msgstr ""
+msgstr "禁止这些用户加入这个比赛。"
 
 #: judge/models/contest.py:119
 msgid "contest format"
-msgstr ""
+msgstr "竞赛格式"
 
 #: judge/models/contest.py:120
 msgid "The contest format module to use."
-msgstr ""
+msgstr "使用的竞赛格式模块。"
 
 #: judge/models/contest.py:121
 msgid "contest format configuration"
-msgstr ""
+msgstr "竞赛格式配置"
 
 #: judge/models/contest.py:122
 msgid "A JSON object to serve as the configuration for the chosen contest format module. Leave empty to use None. Exact format depends on the contest format selected."
-msgstr ""
+msgstr "作为选定竞赛格式模块的配置的JSON对象。留空来不使用。实在格式依赖于所选的竞赛格式。"
 
 #: judge/models/contest.py:129
 msgid "contest lock"
-msgstr ""
+msgstr "竞赛锁定"
 
 #: judge/models/contest.py:130
 msgid "Prevent submissions from this contest from being rejudged."
+msgstr "阻止重新评分该竞赛的提交。"
+
+#: judge/models/contest.py:131
+msgid "precision points"
 msgstr ""
 
-#: judge/models/contest.py:340
+#: judge/models/contest.py:133
+msgid "Number of digits to round points to."
+msgstr ""
+
+#: judge/models/contest.py:343
 msgid "See private contests"
 msgstr "查看私人竞赛"
 
-#: judge/models/contest.py:341
+#: judge/models/contest.py:344
 msgid "Edit own contests"
 msgstr "编辑我的竞赛"
 
-#: judge/models/contest.py:342
+#: judge/models/contest.py:345
 msgid "Edit all contests"
 msgstr "编辑全部竞赛"
 
-#: judge/models/contest.py:343
+#: judge/models/contest.py:346
 msgid "Clone contest"
 msgstr "复制竞赛"
 
-#: judge/models/contest.py:344 templates/contest/moss.html:74
+#: judge/models/contest.py:347 templates/contest/moss.html:74
 msgid "MOSS contest"
-msgstr ""
+msgstr "MOSS竞赛"
 
-#: judge/models/contest.py:345
+#: judge/models/contest.py:348
 msgid "Rate contests"
 msgstr "计算积分的比赛"
 
-#: judge/models/contest.py:346
+#: judge/models/contest.py:349
 msgid "Contest access codes"
 msgstr "比赛访问码"
 
-#: judge/models/contest.py:347
+#: judge/models/contest.py:350
 msgid "Create private contests"
 msgstr "创建私人竞赛"
 
-#: judge/models/contest.py:348
+#: judge/models/contest.py:351
 msgid "Change contest visibility"
-msgstr ""
+msgstr "更改竞赛可见性"
 
-#: judge/models/contest.py:349
+#: judge/models/contest.py:352
 msgid "Edit contest problem label script"
-msgstr ""
+msgstr "编辑竞赛问题标签脚本"
 
-#: judge/models/contest.py:350
+#: judge/models/contest.py:353
 msgid "Change lock status of contest"
-msgstr ""
+msgstr "更改竞赛锁定状态"
 
-#: judge/models/contest.py:352 judge/models/contest.py:450
-#: judge/models/contest.py:487 judge/models/contest.py:509
+#: judge/models/contest.py:355 judge/models/contest.py:453
+#: judge/models/contest.py:491 judge/models/contest.py:513
 #: judge/models/submission.py:84
 msgid "contest"
 msgstr "竞赛"
 
-#: judge/models/contest.py:353
+#: judge/models/contest.py:356
 msgid "contests"
 msgstr "竞赛"
 
-#: judge/models/contest.py:360
+#: judge/models/contest.py:363
 msgid "associated contest"
 msgstr "关联的竞赛"
 
-#: judge/models/contest.py:363
+#: judge/models/contest.py:366
 msgid "score"
 msgstr "得分"
 
-#: judge/models/contest.py:364
+#: judge/models/contest.py:367
 msgid "cumulative time"
 msgstr "累积时间"
 
-#: judge/models/contest.py:365
-msgid "is disqualified"
-msgstr ""
-
-#: judge/models/contest.py:366
-msgid "Whether this participation is disqualified."
-msgstr ""
-
-#: judge/models/contest.py:367
-msgid "tie-breaking field"
-msgstr ""
-
 #: judge/models/contest.py:368
+msgid "is disqualified"
+msgstr "已被取消资格"
+
+#: judge/models/contest.py:369
+msgid "Whether this participation is disqualified."
+msgstr "此参与是否被取消资格。"
+
+#: judge/models/contest.py:370
+msgid "tie-breaking field"
+msgstr "以这个抢七"
+
+#: judge/models/contest.py:371
 msgid "virtual participation id"
 msgstr "虚拟参与信息编号"
 
-#: judge/models/contest.py:369
+#: judge/models/contest.py:372
 msgid "0 means non-virtual, otherwise the n-th virtual participation."
-msgstr ""
+msgstr "0 表示正式参与，否则表示第n次虚拟参与。"
 
-#: judge/models/contest.py:370
+#: judge/models/contest.py:373
 msgid "contest format specific data"
-msgstr ""
+msgstr "竞赛格式特有的数据"
 
-#: judge/models/contest.py:436
+#: judge/models/contest.py:439
 #, python-format
 msgid "%s spectating in %s"
 msgstr "%s旁观%s中"
 
-#: judge/models/contest.py:438
+#: judge/models/contest.py:441
 #, python-format
 msgid "%s in %s, v%d"
 msgstr "%s于%s的第%d次虚拟参与"
 
-#: judge/models/contest.py:439
+#: judge/models/contest.py:442
 #, python-format
 msgid "%s in %s"
 msgstr "%s参与%s中"
 
-#: judge/models/contest.py:442
+#: judge/models/contest.py:445
 msgid "contest participation"
 msgstr "竞赛参与信息"
 
-#: judge/models/contest.py:443
+#: judge/models/contest.py:446
 msgid "contest participations"
 msgstr "竞赛参与信息"
 
-#: judge/models/contest.py:449 judge/models/contest.py:471
-#: judge/models/contest.py:510 judge/models/problem.py:421
-#: judge/models/problem.py:426 judge/models/problem.py:444
+#: judge/models/contest.py:452 judge/models/contest.py:475
+#: judge/models/contest.py:514 judge/models/problem.py:422
+#: judge/models/problem.py:427 judge/models/problem.py:445
 #: judge/models/problem_data.py:35
 msgid "problem"
 msgstr "题目"
 
-#: judge/models/contest.py:451 judge/models/contest.py:475
+#: judge/models/contest.py:454 judge/models/contest.py:479
 #: judge/models/problem.py:129
 msgid "points"
 msgstr "分"
 
-#: judge/models/contest.py:452
+#: judge/models/contest.py:455
 msgid "partial"
 msgstr "部分"
 
-#: judge/models/contest.py:453 judge/models/contest.py:476
+#: judge/models/contest.py:456 judge/models/contest.py:480
 msgid "is pretested"
 msgstr "仅通过预测试"
 
-#: judge/models/contest.py:454 judge/models/interface.py:43
+#: judge/models/contest.py:457 judge/models/interface.py:43
 msgid "order"
 msgstr "顺序"
 
-#: judge/models/contest.py:455
+#: judge/models/contest.py:458
 msgid "output prefix length override"
 msgstr "输出前缀替换"
 
-#: judge/models/contest.py:456
+#: judge/models/contest.py:460
 msgid "Maximum number of submissions for this problem, or leave blank for no limit."
-msgstr ""
+msgstr "此问题的最大提交数量，或留空白而表示无限制"
 
-#: judge/models/contest.py:459
+#: judge/models/contest.py:463
 msgid "Why include a problem you can't submit to?"
 msgstr "为什么包括一个你不能提交的问题？"
 
-#: judge/models/contest.py:464
+#: judge/models/contest.py:468
 msgid "contest problem"
 msgstr "竞赛题目"
 
-#: judge/models/contest.py:465
+#: judge/models/contest.py:469
 msgid "contest problems"
 msgstr "竞赛题目"
 
-#: judge/models/contest.py:469 judge/models/submission.py:201
+#: judge/models/contest.py:473 judge/models/submission.py:201
 msgid "submission"
 msgstr "提交信息"
 
-#: judge/models/contest.py:473 judge/models/contest.py:488
+#: judge/models/contest.py:477 judge/models/contest.py:492
 msgid "participation"
 msgstr "参与"
 
-#: judge/models/contest.py:477
+#: judge/models/contest.py:481
 msgid "Whether this submission was ran only on pretests."
 msgstr "该程序是否只通过预测试。"
 
-#: judge/models/contest.py:481
+#: judge/models/contest.py:485
 msgid "contest submission"
 msgstr "竞赛提交信息"
 
-#: judge/models/contest.py:482
+#: judge/models/contest.py:486
 msgid "contest submissions"
 msgstr "竞赛提交历史"
 
-#: judge/models/contest.py:490
+#: judge/models/contest.py:494
 msgid "rank"
 msgstr "排名"
 
-#: judge/models/contest.py:491
+#: judge/models/contest.py:495
 msgid "rating"
 msgstr "评分"
 
-#: judge/models/contest.py:492
+#: judge/models/contest.py:496
 msgid "volatility"
 msgstr "波动性"
 
-#: judge/models/contest.py:493
+#: judge/models/contest.py:497
 msgid "last rated"
 msgstr "上次评分"
 
-#: judge/models/contest.py:497
+#: judge/models/contest.py:501
 msgid "contest rating"
 msgstr "竞赛评分信息"
 
-#: judge/models/contest.py:498
+#: judge/models/contest.py:502
 msgid "contest ratings"
 msgstr "竞赛评分历史"
 
-#: judge/models/contest.py:517
+#: judge/models/contest.py:521
 msgid "contest moss result"
-msgstr ""
+msgstr "竞赛MOSS结果"
 
-#: judge/models/contest.py:518
+#: judge/models/contest.py:522
 msgid "contest moss results"
-msgstr ""
+msgstr "竞赛MOSS结果"
 
 #: judge/models/interface.py:24
 msgid "configuration item"
@@ -1169,15 +1181,15 @@ msgstr "父项"
 msgid "post title"
 msgstr "文章标题"
 
-#: judge/models/interface.py:67 judge/models/problem.py:464
+#: judge/models/interface.py:67 judge/models/problem.py:465
 msgid "authors"
 msgstr "作者"
 
 #: judge/models/interface.py:68
 msgid "slug"
-msgstr "网址标识"
+msgstr "网址标志"
 
-#: judge/models/interface.py:69 judge/models/problem.py:462
+#: judge/models/interface.py:69 judge/models/problem.py:463
 msgid "public visibility"
 msgstr "公共可见性"
 
@@ -1217,7 +1229,7 @@ msgstr "博客文章"
 msgid "message title"
 msgstr "消息标题"
 
-#: judge/models/message.py:12 judge/models/ticket.py:29
+#: judge/models/message.py:12 judge/models/ticket.py:30
 msgid "message body"
 msgstr "消息正文"
 
@@ -1320,7 +1332,7 @@ msgstr "题目代码"
 
 #: judge/models/problem.py:98
 msgid "A short, unique code for the problem, used in the url after /problem/"
-msgstr ""
+msgstr "一个简短，独特的问题代码，将在URL里/problem/之后显示"
 
 #: judge/models/problem.py:100
 msgid "problem name"
@@ -1328,7 +1340,7 @@ msgstr "题目名称"
 
 #: judge/models/problem.py:101
 msgid "The full name of the problem, as shown in the problem list."
-msgstr ""
+msgstr "问题列表中显示的问题全名。"
 
 #: judge/models/problem.py:103
 msgid "problem body"
@@ -1340,7 +1352,7 @@ msgstr "作者"
 
 #: judge/models/problem.py:105
 msgid "These users will be able to edit the problem, and be listed as authors."
-msgstr ""
+msgstr "这些用户将能够编辑问题并被列为提问者。"
 
 #: judge/models/problem.py:107
 msgid "curators"
@@ -1348,7 +1360,7 @@ msgstr "管理员"
 
 #: judge/models/problem.py:108
 msgid "These users will be able to edit the problem, but not be listed as authors."
-msgstr ""
+msgstr "这些用户将可以编辑这个问题，但不会公开显示为提问者。"
 
 #: judge/models/problem.py:110
 msgid "testers"
@@ -1356,21 +1368,21 @@ msgstr "测试人员"
 
 #: judge/models/problem.py:112
 msgid "These users will be able to view the private problem, but not edit it."
-msgstr ""
+msgstr "这些用户将能查看这个隐藏的问题，但无法编辑。"
 
 #: judge/models/problem.py:114
 msgid "The type of problem, as shown on the problem's page."
-msgstr ""
+msgstr "在问题页面显示的问题类型。"
 
 #: judge/models/problem.py:117
 msgid "The group of problem, shown under Category in the problem list."
-msgstr ""
+msgstr "在问题列表显示的问题组"
 
 #: judge/models/problem.py:119
 msgid "The time limit for this problem, in seconds. Fractional seconds (e.g. 1.5) are supported."
 msgstr "这个问题的时间限制（以秒为单位。支持小数秒计时方式（例如1.5）。"
 
-#: judge/models/problem.py:123 judge/models/problem.py:449
+#: judge/models/problem.py:123 judge/models/problem.py:450
 msgid "memory limit"
 msgstr "内存限制"
 
@@ -1380,7 +1392,7 @@ msgstr "此问题的存储限制，以kb为单位（例如 64mb = 65536 kb）"
 
 #: judge/models/problem.py:130
 msgid "Points awarded for problem completion. Points are displayed with a 'p' suffix if partial."
-msgstr ""
+msgstr "完成问题得分的分数，如果有部分分数而显示'p'结尾。"
 
 #: judge/models/problem.py:133
 msgid "allows partial points"
@@ -1392,7 +1404,7 @@ msgstr "允许的语言"
 
 #: judge/models/problem.py:135
 msgid "List of allowed submission languages."
-msgstr ""
+msgstr "允许提交语言。"
 
 #: judge/models/problem.py:137
 msgid "manually managed"
@@ -1400,7 +1412,7 @@ msgstr "手动管理"
 
 #: judge/models/problem.py:138
 msgid "Whether judges should be allowed to manage data or not."
-msgstr ""
+msgstr "是否允许裁判管理数据"
 
 #: judge/models/problem.py:139
 msgid "date of publishing"
@@ -1412,11 +1424,11 @@ msgstr "无法自动在时间后公开题目"
 
 #: judge/models/problem.py:142
 msgid "Bans the selected users from submitting to this problem."
-msgstr ""
+msgstr "禁止这些用户对该题目提交答案。"
 
 #: judge/models/problem.py:144
 msgid "The license under which this problem is published."
-msgstr ""
+msgstr "此问题的許可證。"
 
 #: judge/models/problem.py:146
 msgid "problem summary"
@@ -1424,11 +1436,11 @@ msgstr "问题摘要"
 
 #: judge/models/problem.py:148
 msgid "number of users"
-msgstr ""
+msgstr "用户数"
 
 #: judge/models/problem.py:149
 msgid "The number of users who solved the problem."
-msgstr ""
+msgstr "解决这个问题的用户数量。"
 
 #: judge/models/problem.py:150
 msgid "solve rate"
@@ -1436,110 +1448,110 @@ msgstr "通过率"
 
 #: judge/models/problem.py:151
 msgid "allow full markdown access"
-msgstr ""
+msgstr "允许使用所有markup"
 
 #: judge/models/problem.py:157
 msgid "If private, only these organizations may see the problem."
-msgstr ""
-
-#: judge/models/problem.py:411
-msgid "See hidden problems"
-msgstr ""
+msgstr "隐藏时，只对选择的组织才可见"
 
 #: judge/models/problem.py:412
-msgid "Edit own problems"
-msgstr ""
+msgid "See hidden problems"
+msgstr "查看隐藏问题"
 
 #: judge/models/problem.py:413
-msgid "Edit all problems"
-msgstr ""
+msgid "Edit own problems"
+msgstr "编辑自己的问题"
 
 #: judge/models/problem.py:414
-msgid "Edit all public problems"
-msgstr ""
+msgid "Edit all problems"
+msgstr "编辑所有问题"
 
 #: judge/models/problem.py:415
-msgid "Edit problems with full markup"
-msgstr ""
+msgid "Edit all public problems"
+msgstr "编辑所有公共问题"
 
-#: judge/models/problem.py:416 templates/problem/problem.html:161
+#: judge/models/problem.py:416
+msgid "Edit problems with full markup"
+msgstr "使用所有markup来编辑问题"
+
+#: judge/models/problem.py:417 templates/problem/problem.html:161
 msgid "Clone problem"
 msgstr "复制题目"
 
-#: judge/models/problem.py:417
-msgid "Change is_public field"
-msgstr ""
-
 #: judge/models/problem.py:418
-msgid "Change is_manually_managed field"
-msgstr ""
+msgid "Change is_public field"
+msgstr "改变is_public领域"
 
 #: judge/models/problem.py:419
-msgid "See organization-private problems"
-msgstr ""
+msgid "Change is_manually_managed field"
+msgstr "改变is_manually_managed领域"
 
-#: judge/models/problem.py:427 judge/models/problem.py:445
-#: judge/models/runtime.py:158
+#: judge/models/problem.py:420
+msgid "See organization-private problems"
+msgstr "查看对组织私有的问题"
+
+#: judge/models/problem.py:428 judge/models/problem.py:446
+#: judge/models/runtime.py:111
 msgid "language"
 msgstr "语言"
 
-#: judge/models/problem.py:428
+#: judge/models/problem.py:429
 msgid "translated name"
 msgstr "翻译题目名"
 
-#: judge/models/problem.py:429
+#: judge/models/problem.py:430
 msgid "translated description"
 msgstr "翻译题目正文"
 
-#: judge/models/problem.py:433
+#: judge/models/problem.py:434
 msgid "problem translation"
 msgstr "题目翻译"
 
-#: judge/models/problem.py:434
+#: judge/models/problem.py:435
 msgid "problem translations"
 msgstr "题目翻译"
 
-#: judge/models/problem.py:438
+#: judge/models/problem.py:439
 msgid "clarified problem"
 msgstr "已澄清的问题"
 
-#: judge/models/problem.py:439
+#: judge/models/problem.py:440
 msgid "clarification body"
 msgstr "澄清的身体"
 
-#: judge/models/problem.py:440
+#: judge/models/problem.py:441
 msgid "clarification timestamp"
 msgstr "澄清时间戳"
 
-#: judge/models/problem.py:455
+#: judge/models/problem.py:456
 msgid "language-specific resource limit"
 msgstr "语言特定资源限制"
 
-#: judge/models/problem.py:456
+#: judge/models/problem.py:457
 msgid "language-specific resource limits"
 msgstr "语言特定资源限制"
 
-#: judge/models/problem.py:460
+#: judge/models/problem.py:461
 msgid "associated problem"
 msgstr "关联的题目"
 
-#: judge/models/problem.py:463
+#: judge/models/problem.py:464
 msgid "publish date"
 msgstr "发布日期"
 
-#: judge/models/problem.py:465
+#: judge/models/problem.py:466
 msgid "editorial content"
 msgstr "可编辑的内容"
 
-#: judge/models/problem.py:488
+#: judge/models/problem.py:489
 msgid "See hidden solutions"
-msgstr ""
+msgstr "查看隐藏的解答"
 
-#: judge/models/problem.py:490
+#: judge/models/problem.py:491
 msgid "solution"
 msgstr "题目讲解"
 
-#: judge/models/problem.py:491
+#: judge/models/problem.py:492
 msgid "solutions"
 msgstr "题目讲解"
 
@@ -1573,7 +1585,7 @@ msgstr "字节全等"
 
 #: judge/models/problem_data.py:30
 msgid "Line-by-line"
-msgstr ""
+msgstr "逐行显示"
 
 #: judge/models/problem_data.py:37
 msgid "data zip file"
@@ -1657,11 +1669,11 @@ msgstr "组织名称"
 
 #: judge/models/profile.py:40
 msgid "organization slug"
-msgstr ""
+msgstr "组织代码"
 
 #: judge/models/profile.py:41
 msgid "Organization name shown in URL"
-msgstr ""
+msgstr "组织名称在 URL 中显示"
 
 #: judge/models/profile.py:43
 msgid "Displayed beside user name during contests"
@@ -1713,15 +1725,15 @@ msgstr "学生访问码"
 
 #: judge/models/profile.py:59
 msgid "This image will replace the default site logo for users viewing the organization."
-msgstr ""
+msgstr "此图片将替换访问该组织的用户的默认网站标识。"
 
 #: judge/models/profile.py:82
 msgid "Administer organizations"
-msgstr ""
+msgstr "管理组织"
 
 #: judge/models/profile.py:83
 msgid "Edit all organizations"
-msgstr ""
+msgstr "编辑所有组织"
 
 #: judge/models/profile.py:85 judge/models/profile.py:102
 #: judge/models/profile.py:266
@@ -1758,11 +1770,11 @@ msgstr "显示排名"
 
 #: judge/models/profile.py:106
 msgid "Normal User"
-msgstr ""
+msgstr "普通用户"
 
 #: judge/models/profile.py:107
 msgid "Problem Setter"
-msgstr ""
+msgstr "问题作家"
 
 #: judge/models/profile.py:108 templates/base.html:220
 #: templates/comments/list.html:99 templates/contest/contest-list-tabs.html:24
@@ -1783,11 +1795,11 @@ msgstr "某些用户在沉默时表现最佳。"
 
 #: judge/models/profile.py:111
 msgid "unlisted user"
-msgstr ""
+msgstr "未列出用户"
 
 #: judge/models/profile.py:111
 msgid "User will not be ranked."
-msgstr ""
+msgstr "用户将不被排名。"
 
 #: judge/models/profile.py:114
 msgid "user script"
@@ -1811,75 +1823,75 @@ msgstr "数学渲染使用的引擎"
 
 #: judge/models/profile.py:121
 msgid "TOTP 2FA enabled"
-msgstr ""
+msgstr "TOTP 2FA 已启用"
 
 #: judge/models/profile.py:122
 msgid "check to enable TOTP-based two-factor authentication"
-msgstr ""
+msgstr "打钩以启用TOTP双重验证"
 
 #: judge/models/profile.py:123
 msgid "WebAuthn 2FA enabled"
-msgstr ""
+msgstr "WebAuthn 2FA 已启用"
 
 #: judge/models/profile.py:124
 msgid "check to enable WebAuthn-based two-factor authentication"
-msgstr ""
+msgstr "打钩以启用WebAuthn双重验证"
 
 #: judge/models/profile.py:125
 msgid "TOTP key"
-msgstr ""
+msgstr "TOTP 密钥"
 
 #: judge/models/profile.py:126
 msgid "32 character base32-encoded key for TOTP"
-msgstr ""
+msgstr "TOTP的32字符，32进制密钥"
 
 #: judge/models/profile.py:128
 msgid "TOTP key must be empty or base32"
-msgstr ""
+msgstr "TOTP 密钥必须为空或三十二进制"
 
 #: judge/models/profile.py:129
 msgid "scratch codes"
-msgstr ""
+msgstr "一次性代码："
 
 #: judge/models/profile.py:130
 msgid "JSON array of 16 character base32-encoded codes                                                         for scratch codes"
-msgstr ""
+msgstr "含有16字符的32进制代码的JSON数组"
 
 #: judge/models/profile.py:134
 msgid "Scratch codes must be empty or a JSON array of                                                                  16-character base32 codes"
-msgstr ""
+msgstr "一次性代码必须是空的或者是一个含有32进制代码的JSON数组"
 
 #: judge/models/profile.py:136
 msgid "API token"
-msgstr ""
+msgstr "API令牌"
 
 #: judge/models/profile.py:137
 msgid "64 character hex-encoded API access token"
-msgstr ""
+msgstr "64 个字符hex编码的API访问令牌"
 
 #: judge/models/profile.py:139
 msgid "API token must be None or hexadecimal"
-msgstr ""
+msgstr "API 令牌必须是莫或十六进制的"
 
 #: judge/models/profile.py:140
 msgid "internal notes"
-msgstr ""
+msgstr "内部备注"
 
 #: judge/models/profile.py:141
 msgid "Notes for administrators regarding this user."
-msgstr ""
+msgstr "此用户的管理员备注。"
 
 #: judge/models/profile.py:142
 msgid "last data download time"
-msgstr ""
+msgstr "上次数据下载时间"
 
 #: judge/models/profile.py:233
 msgid "Shows in-progress development stuff"
-msgstr ""
+msgstr "显示正在开发的内容"
 
 #: judge/models/profile.py:234
 msgid "Edit TOTP settings"
-msgstr ""
+msgstr "编辑 TOTP 设置"
 
 #: judge/models/profile.py:236
 msgid "user profile"
@@ -1891,19 +1903,19 @@ msgstr "用户信息"
 
 #: judge/models/profile.py:243
 msgid "device name"
-msgstr ""
+msgstr "设备名称"
 
 #: judge/models/profile.py:244
 msgid "credential ID"
-msgstr ""
+msgstr "凭据ID"
 
 #: judge/models/profile.py:245
 msgid "public key"
-msgstr ""
+msgstr "公钥"
 
 #: judge/models/profile.py:246
 msgid "sign counter"
-msgstr ""
+msgstr "签名数量"
 
 #: judge/models/profile.py:268
 msgid "request time"
@@ -1991,7 +2003,7 @@ msgstr "语言描述"
 
 #: judge/models/runtime.py:43
 msgid "Use this field to inform users of quirks with your environment, additional restrictions, etc."
-msgstr ""
+msgstr "使用此空间来表达运行环境的特性、额外限制等信息。"
 
 #: judge/models/runtime.py:45
 msgid "extension"
@@ -2001,79 +2013,79 @@ msgstr "扩展"
 msgid "The extension of source files, e.g., \"py\" or \"cpp\"."
 msgstr "源文件扩展名，例如：\"py\"或\"cpp\"。"
 
-#: judge/models/runtime.py:159
+#: judge/models/runtime.py:112
 msgid "languages"
 msgstr "语言"
 
-#: judge/models/runtime.py:163
+#: judge/models/runtime.py:116
 msgid "language to which this runtime belongs"
 msgstr "软件属于的语言"
 
-#: judge/models/runtime.py:164
+#: judge/models/runtime.py:117
 msgid "judge on which this runtime exists"
 msgstr "拥有次语言的裁判服务器"
 
-#: judge/models/runtime.py:165
+#: judge/models/runtime.py:118
 msgid "runtime name"
 msgstr "软件名称"
 
-#: judge/models/runtime.py:166
+#: judge/models/runtime.py:119
 msgid "runtime version"
 msgstr "软件版本"
 
-#: judge/models/runtime.py:167
+#: judge/models/runtime.py:120
 msgid "order in which to display this runtime"
 msgstr "软件显示顺序"
 
-#: judge/models/runtime.py:171
+#: judge/models/runtime.py:124
 msgid "Server name, hostname-style"
 msgstr "服务器名称"
 
-#: judge/models/runtime.py:172
+#: judge/models/runtime.py:125
 msgid "time of creation"
 msgstr "创建时间"
 
-#: judge/models/runtime.py:173
+#: judge/models/runtime.py:126
 msgid "A key to authenticate this judge"
-msgstr ""
+msgstr "裁判服务器连接密匙"
 
-#: judge/models/runtime.py:174
+#: judge/models/runtime.py:127
 msgid "authentication key"
 msgstr "连接密匙"
 
-#: judge/models/runtime.py:175
+#: judge/models/runtime.py:128
 msgid "block judge"
-msgstr ""
+msgstr "阻止裁判服务器"
 
-#: judge/models/runtime.py:176
+#: judge/models/runtime.py:129
 msgid "Whether this judge should be blocked from connecting, even if its key is correct."
-msgstr ""
+msgstr "是否阻止此裁判连接，即使其密钥正确。"
 
-#: judge/models/runtime.py:178
+#: judge/models/runtime.py:131
 msgid "judge online status"
 msgstr "裁判在线状态"
 
-#: judge/models/runtime.py:179
+#: judge/models/runtime.py:132
 msgid "judge start time"
 msgstr "裁判启动时间"
 
-#: judge/models/runtime.py:180
+#: judge/models/runtime.py:133
 msgid "response time"
 msgstr "响应时间"
 
-#: judge/models/runtime.py:181
+#: judge/models/runtime.py:134
 msgid "system load"
 msgstr "系统负载"
 
-#: judge/models/runtime.py:182
+#: judge/models/runtime.py:135
 msgid "Load for the last minute, divided by processors to be fair."
 msgstr "最后一分钟的系统负载（每处理器平均值）"
 
-#: judge/models/runtime.py:186 judge/models/runtime.py:228
+#: judge/models/runtime.py:139 judge/models/runtime.py:181
 msgid "judges"
 msgstr "裁判服务器"
 
-#: judge/models/runtime.py:227
+#: judge/models/runtime.py:180
 msgid "judge"
 msgstr "裁判服务器"
 
@@ -2194,7 +2206,7 @@ msgstr "裁判服务器"
 
 #: judge/models/submission.py:81
 msgid "submission judge time"
-msgstr ""
+msgstr "提交评论时间"
 
 #: judge/models/submission.py:82
 msgid "was rejudged by admin"
@@ -2206,35 +2218,35 @@ msgstr "只进行过预测试"
 
 #: judge/models/submission.py:86
 msgid "lock submission"
-msgstr ""
+msgstr "锁定提交"
 
 #: judge/models/submission.py:193
 msgid "Abort any submission"
-msgstr ""
+msgstr "中止任何提交"
 
 #: judge/models/submission.py:194
 msgid "Rejudge the submission"
-msgstr ""
+msgstr "重新评分提交"
 
 #: judge/models/submission.py:195
 msgid "Rejudge a lot of submissions"
-msgstr ""
+msgstr "重新评分很多提交"
 
 #: judge/models/submission.py:196
 msgid "Submit without limit"
-msgstr ""
+msgstr "不受限制提交"
 
 #: judge/models/submission.py:197
 msgid "View all submission"
-msgstr ""
+msgstr "查看所有提交"
 
 #: judge/models/submission.py:198
 msgid "Resubmit others' submission"
-msgstr ""
+msgstr "重新提交他人的提交"
 
 #: judge/models/submission.py:199
 msgid "Change lock status of submission"
-msgstr ""
+msgstr "更改提交锁定状态"
 
 #: judge/models/submission.py:202 templates/contest/moss.html:58
 msgid "submissions"
@@ -2270,7 +2282,7 @@ msgstr "评测反馈"
 
 #: judge/models/submission.py:227
 msgid "extended judging feedback"
-msgstr ""
+msgstr "延长的裁判反馈"
 
 #: judge/models/submission.py:228
 msgid "program output"
@@ -2300,35 +2312,35 @@ msgstr "创造时间"
 msgid "assignees"
 msgstr "受让人"
 
-#: judge/models/ticket.py:15
+#: judge/models/ticket.py:16
 msgid "quick notes"
 msgstr "便笺"
 
-#: judge/models/ticket.py:16
+#: judge/models/ticket.py:17
 msgid "Staff notes for this issue to aid in processing."
 msgstr "工作人员表示，问题正在受处理的过程中"
 
-#: judge/models/ticket.py:17
+#: judge/models/ticket.py:18
 msgid "linked item type"
 msgstr "链接的项目类型"
 
-#: judge/models/ticket.py:19
+#: judge/models/ticket.py:20
 msgid "linked item ID"
 msgstr "链接的项目 ID"
 
-#: judge/models/ticket.py:21
+#: judge/models/ticket.py:22
 msgid "is ticket open?"
 msgstr "门票开了吗？"
 
-#: judge/models/ticket.py:25
+#: judge/models/ticket.py:26
 msgid "ticket"
 msgstr "票"
 
-#: judge/models/ticket.py:27
+#: judge/models/ticket.py:28
 msgid "poster"
 msgstr "海报"
 
-#: judge/models/ticket.py:30
+#: judge/models/ticket.py:31
 msgid "message time"
 msgstr "消息时间"
 
@@ -2340,31 +2352,31 @@ msgstr "第[page]页，共[topage]页"
 #: judge/pdf_problems.py:282
 #, python-format
 msgid "Page %s of %s"
-msgstr ""
+msgstr "第%s页/共%s 页"
 
 #: judge/tasks/contest.py:19
 msgid "Recalculating contest scores"
-msgstr ""
+msgstr "正在重新计算比赛分数"
 
 #: judge/tasks/contest.py:40
 msgid "Running MOSS"
-msgstr ""
+msgstr "正在运行 MOSS。"
 
 #: judge/tasks/submission.py:43
 msgid "Modifying submissions"
-msgstr ""
+msgstr "正在改变提交"
 
 #: judge/tasks/submission.py:56
 msgid "Recalculating user points"
-msgstr ""
+msgstr "正在重新计算用户分数"
 
 #: judge/tasks/user.py:50
 msgid "Preparing your submission data"
-msgstr ""
+msgstr "正在准备您的提交资料"
 
 #: judge/tasks/user.py:81
 msgid "Preparing your comment data"
-msgstr ""
+msgstr "正在准备您的评论资料"
 
 #: judge/utils/problem_data.py:63
 msgid "Empty batches not allowed."
@@ -2405,15 +2417,15 @@ msgstr "你怎么使生成器路径崩溃？"
 
 #: judge/utils/problems.py:75
 msgid "Wrong"
-msgstr ""
+msgstr "错误"
 
 #: judge/utils/problems.py:77
 msgid "Timeout"
-msgstr ""
+msgstr "超时"
 
 #: judge/utils/problems.py:78
 msgid "Error"
-msgstr ""
+msgstr "出错"
 
 #: judge/utils/problems.py:89
 msgid "Can't pass both queryset and keyword filters"
@@ -2421,11 +2433,11 @@ msgstr "无法同时使用 queryset 和关键字筛选"
 
 #: judge/utils/pwned.py:101
 msgid "Your password can't be a commonly used password."
-msgstr ""
+msgstr "您的密码不能是常见的密码。"
 
 #: judge/utils/pwned.py:102
 msgid "This password is too common."
-msgstr ""
+msgstr "这个密码太常见了。"
 
 #: judge/utils/timedelta.py:49
 msgctxt "time format with day"
@@ -2466,17 +2478,17 @@ msgstr "请别捣乱。"
 
 #: judge/views/comment.py:36
 msgid "You must solve at least one problem before you can vote."
-msgstr ""
+msgstr "您投票前必须解决至少一个问题。"
 
-#: judge/views/comment.py:63
+#: judge/views/comment.py:66
 msgid "You already voted."
 msgstr "你已经投了票。"
 
-#: judge/views/comment.py:126 judge/views/organization.py:299
+#: judge/views/comment.py:129 judge/views/organization.py:299
 msgid "Edited from site"
 msgstr "从网站中上编辑"
 
-#: judge/views/comment.py:147
+#: judge/views/comment.py:150
 msgid "Editing comment"
 msgstr "编辑评论"
 
@@ -2505,7 +2517,7 @@ msgstr "对竞赛”%s“的访问被拒绝"
 
 #: judge/views/contests.py:235
 msgid "Clone Contest"
-msgstr ""
+msgstr "复制竞赛"
 
 #: judge/views/contests.py:301
 msgid "Contest not ongoing"
@@ -2527,11 +2539,11 @@ msgstr "您已经参与了竞赛：”%s“。"
 
 #: judge/views/contests.py:310
 msgid "Banned from joining"
-msgstr ""
+msgstr "禁止加入"
 
 #: judge/views/contests.py:311
 msgid "You have been declared persona non grata for this contest. You are permanently barred from joining this contest."
-msgstr ""
+msgstr "您在该竞赛不受欢迎。您被永久禁止参加该竞赛。"
 
 #: judge/views/contests.py:372
 #, python-format
@@ -2545,7 +2557,7 @@ msgstr "你不是在竞赛\"%s\"中。"
 
 #: judge/views/contests.py:402
 msgid "ContestCalendar requires integer year and month"
-msgstr ""
+msgstr "ContestCalender 需要整数年份和月份"
 
 #: judge/views/contests.py:442
 #, python-format
@@ -2554,12 +2566,12 @@ msgstr "%(month)s的竞赛"
 
 #: judge/views/contests.py:442
 msgid "F Y"
-msgstr ""
+msgstr "Y年n月"
 
 #: judge/views/contests.py:489
 #, python-format
 msgid "%s Statistics"
-msgstr ""
+msgstr "%s 数据"
 
 #: judge/views/contests.py:662
 #, python-format
@@ -2591,12 +2603,12 @@ msgstr "参与历史"
 #: judge/views/contests.py:750
 #, python-format
 msgid "%s MOSS Results"
-msgstr ""
+msgstr "%s MOSS 结果"
 
 #: judge/views/contests.py:777
 #, python-format
 msgid "Running MOSS for %s..."
-msgstr ""
+msgstr "正在为 %s 运行 MOSS..."
 
 #: judge/views/contests.py:800
 #, python-format
@@ -2760,7 +2772,7 @@ msgstr "题目"
 #: judge/views/problem.py:555 judge/views/problem.py:563
 #, python-format
 msgid "Submit to %s"
-msgstr ""
+msgstr "提交给 %s"
 
 #: judge/views/problem.py:612
 msgid "Banned from submitting"
@@ -2780,7 +2792,7 @@ msgstr "您已超出此问题的提交限制。"
 
 #: judge/views/problem.py:680
 msgid "Clone Problem"
-msgstr ""
+msgstr "复制问题"
 
 #: judge/views/problem_data.py:37
 msgid "Checker arguments must be a JSON object"
@@ -2822,23 +2834,23 @@ msgstr "为%s生成的init.yml"
 #: judge/views/problem_manage.py:50 judge/views/problem_manage.py:53
 #, python-format
 msgid "Managing submissions for %s"
-msgstr ""
+msgstr "管理 %s的提交"
 
 #: judge/views/problem_manage.py:95
 #, python-format
 msgid "Rejudging selected submissions for %s..."
-msgstr ""
+msgstr "正在为%s重新评分选定的提交..."
 
 #: judge/views/problem_manage.py:110
 #, python-format
 msgid "Rescoring all submissions for %s..."
-msgstr ""
+msgstr "正在重新评分%s的所有提交"
 
 #: judge/views/problem_manage.py:119
 #, python-format
 msgid "Successfully scheduled %d submission for rejudging."
 msgid_plural "Successfully scheduled %d submissions for rejudging."
-msgstr[0] ""
+msgstr[0] "成功预定重新评分%d个提交。"
 
 #: judge/views/ranked_submission.py:57
 #, python-format
@@ -2916,69 +2928,69 @@ msgstr "版本矩阵"
 msgid "Submission of %(problem)s by %(user)s"
 msgstr "%(user)s 在 %(problem)s 的提交结果"
 
-#: judge/views/submission.py:200 judge/views/submission.py:201
+#: judge/views/submission.py:203 judge/views/submission.py:204
 #: templates/problem/problem.html:127
 msgid "All submissions"
 msgstr "所有提交历史"
 
-#: judge/views/submission.py:346
+#: judge/views/submission.py:349
 msgid "All my submissions"
 msgstr "我提交的程序"
 
-#: judge/views/submission.py:347
+#: judge/views/submission.py:350
 #, python-format
 msgid "All submissions by %s"
 msgstr "%s 的提交历史"
 
-#: judge/views/submission.py:378
+#: judge/views/submission.py:381
 #, python-format
 msgid "All submissions for %s"
 msgstr "%s 的提交历史"
 
-#: judge/views/submission.py:397
+#: judge/views/submission.py:400
 msgid "Must pass a problem"
 msgstr "必须给予题目"
 
-#: judge/views/submission.py:436
+#: judge/views/submission.py:439
 #, python-format
 msgid "My submissions for %(problem)s"
 msgstr "我对 %(problem)s 提交的程序"
 
-#: judge/views/submission.py:437
+#: judge/views/submission.py:440
 #, python-format
 msgid "%(user)s's submissions for %(problem)s"
 msgstr "%(user)s 在 %(problem)s 的提交历史"
 
-#: judge/views/submission.py:533
+#: judge/views/submission.py:536
 msgid "Must pass a contest"
 msgstr "必须给予竞赛"
 
-#: judge/views/submission.py:541
+#: judge/views/submission.py:544
 #, python-format
 msgid "My submissions in %(contest)s"
-msgstr ""
+msgstr "我在 %(contest)s 的提交"
 
-#: judge/views/submission.py:542
+#: judge/views/submission.py:545
 #, python-format
 msgid "%(user)s's submissions in %(contest)s"
-msgstr ""
+msgstr "%(user)s 在 %(contest)s 的提交历史"
 
-#: judge/views/submission.py:556
+#: judge/views/submission.py:559
 #, python-brace-format
 msgid "My submissions in <a href=\"{1}\">{0}</a>"
-msgstr ""
+msgstr "我在 <a href=\"{1}\">{0}的提交</a>"
 
-#: judge/views/submission.py:558
+#: judge/views/submission.py:561
 #, python-brace-format
 msgid "<a href=\"{1}\">{0}</a>'s submissions in <a href=\"{3}\">{2}</a>"
-msgstr ""
+msgstr "<a href=\"{1}\">{0}</a>对<a href=\"{3}\">{2}</a>的提交"
 
-#: judge/views/submission.py:582
+#: judge/views/submission.py:585
 #, python-brace-format
 msgid "<a href=\"{1}\">{0}</a>'s submissions for <a href=\"{3}\">{2}</a> in <a href=\"{5}\">{4}</a>"
 msgstr "<a href=\"{5}\">{4}</a> 中 <a href=\"{1}\">{0}</a> 在 <a href=\"{3}\">{2}</a> 的提交历史"
 
-#: judge/views/submission.py:587
+#: judge/views/submission.py:590
 #, python-brace-format
 msgid "<a href=\"{1}\">{0}</a>'s submissions for problem {2} in <a href=\"{4}\">{3}</a>"
 msgstr "<a href=\"{1}\">{0}</a> 对 <a href=\"{4}\">{3}</a> 第 {2} 题提交的程序"
@@ -3027,89 +3039,89 @@ msgstr "没人"
 #: judge/views/ticket.py:319
 #, python-format
 msgid "New Ticket Message For: %s"
-msgstr ""
+msgstr "%s的新工单消息"
 
 #: judge/views/two_factor.py:49
 msgid "Enable Two-factor Authentication"
-msgstr ""
+msgstr "启用双因素身份认证"
 
 #: judge/views/two_factor.py:99
 msgid "Disable Two-factor Authentication"
-msgstr ""
+msgstr "禁用双因素身份认证"
 
 #: judge/views/two_factor.py:148
 msgid "Invalid WebAuthn response"
-msgstr ""
+msgstr "WebAuthn回复无效"
 
 #: judge/views/two_factor.py:151
 msgid "Invalid name"
-msgstr ""
+msgstr "名称无效"
 
 #: judge/views/two_factor.py:204
 msgid "Staff may not disable 2FA"
-msgstr ""
+msgstr "员工不能禁用 2FA"
 
 #: judge/views/two_factor.py:216
 msgid "Perform Two-factor Authentication"
-msgstr ""
+msgstr "执行双因素身份认证"
 
-#: judge/views/user.py:77
+#: judge/views/user.py:79
 msgid "No such user"
 msgstr "无该用户"
 
-#: judge/views/user.py:77
+#: judge/views/user.py:79
 #, python-format
 msgid "No user handle \"%s\"."
 msgstr "无名为“%s“的用户"
 
-#: judge/views/user.py:81
+#: judge/views/user.py:83
 msgid "My account"
 msgstr "我的帐户"
 
-#: judge/views/user.py:82
+#: judge/views/user.py:84
 #, python-format
 msgid "User %s"
 msgstr "用户 %s"
 
-#: judge/views/user.py:130
+#: judge/views/user.py:132
 msgid "Login"
 msgstr "登录"
 
-#: judge/views/user.py:171
+#: judge/views/user.py:173
 msgid "M j, Y, G:i"
 msgstr "Y年n月j日 G:i"
 
-#: judge/views/user.py:288
+#: judge/views/user.py:307
 msgid "Preparing your data..."
-msgstr ""
+msgstr "正在准备您的数据..."
 
-#: judge/views/user.py:292 templates/user/edit-profile.html:347
+#: judge/views/user.py:311 templates/user/edit-profile.html:347
 msgid "Download your data"
-msgstr ""
+msgstr "下载您的数据"
 
-#: judge/views/user.py:348
+#: judge/views/user.py:367
 msgid "Updated on site"
 msgstr "在网站上更新"
 
-#: judge/views/user.py:381 templates/admin/auth/user/change_form.html:14
+#: judge/views/user.py:400 templates/admin/auth/user/change_form.html:14
 #: templates/admin/auth/user/change_form.html:17 templates/base.html:222
 #: templates/user/user-tabs.html:10
 msgid "Edit profile"
 msgstr "编辑个人资料"
 
-#: judge/views/user.py:395
+#: judge/views/user.py:415
 msgid "Generated API token for user"
-msgstr ""
+msgstr "为用户生成 API 令牌"
 
-#: judge/views/user.py:407
+#: judge/views/user.py:427
 msgid "Removed API token for user"
-msgstr ""
+msgstr "为用户清除API令牌"
 
-#: judge/views/user.py:417
+#: judge/views/user.py:437
 msgid "Generated scratch codes for user"
-msgstr ""
+msgstr "为用户生成一次性代码"
 
-#: judge/views/user.py:423 templates/user/user-list-tabs.html:4
+#: judge/views/user.py:443 templates/user/user-list-tabs.html:4
 msgid "Leaderboard"
 msgstr "排行榜"
 
@@ -3122,158 +3134,148 @@ msgstr "无效的上游数据： %s"
 msgid "Bad latitude or longitude"
 msgstr "无效的纬度或经度"
 
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:13
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:27
-msgid "Photo"
-msgstr ""
-
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:14
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:28
-msgid "Photos"
-msgstr ""
-
 #: src/dmoj-wpadmin/test_project/apps/authors/models.py:9
 msgid "first name"
-msgstr ""
+msgstr "名"
 
 #: src/dmoj-wpadmin/test_project/apps/authors/models.py:10
 msgid "last name"
-msgstr ""
+msgstr "姓氏："
 
 #: src/dmoj-wpadmin/test_project/apps/authors/models.py:11
 msgid "biography"
-msgstr ""
+msgstr "个人简介"
 
 #: src/dmoj-wpadmin/test_project/apps/books/admin.py:24
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:30
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:30
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:30
 msgid "owner"
-msgstr ""
+msgstr "所有人"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:12
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:12
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:12
 msgid "name"
-msgstr ""
+msgstr "名称"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:19
 msgid "Category of Books"
-msgstr ""
+msgstr "书籍类别"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:20
 msgid "Categories of Books"
-msgstr ""
+msgstr "书籍类别"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:26
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:26
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:26
 msgid "title"
-msgstr ""
+msgstr "标题"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:28
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:28
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:28
 msgid "category"
-msgstr ""
+msgstr "分类"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:29
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:29
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:29
 msgid "author"
-msgstr ""
+msgstr "作者"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:31
 msgid "publication date"
-msgstr ""
+msgstr "发布日期"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:37
 msgid "Book"
-msgstr ""
+msgstr "书"
 
 #: src/dmoj-wpadmin/test_project/apps/books/models.py:38
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:136
 msgid "Books"
-msgstr ""
+msgstr "书籍"
 
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:19
 msgid "Category of CDs"
-msgstr ""
+msgstr "CD 类别"
 
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:20
 msgid "Categories of CDs"
-msgstr ""
+msgstr "CD 类别"
 
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:36
 msgid "CD"
-msgstr ""
+msgstr "CD"
 
 #: src/dmoj-wpadmin/test_project/apps/cds/models.py:37
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:141
 msgid "CDs"
-msgstr ""
+msgstr "CDs"
 
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:19
 msgid "Category of DVDs"
-msgstr ""
+msgstr "DVD 类别"
 
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:20
 msgid "Categories of DVDs"
-msgstr ""
+msgstr "DVD 类别"
 
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:36
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: src/dmoj-wpadmin/test_project/apps/dvds/models.py:37
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:146
 msgid "DVDs"
-msgstr ""
+msgstr "DVDs"
 
 #: src/dmoj-wpadmin/test_project/templates/admin/base_site.html:7
 msgid "Django administration"
-msgstr ""
+msgstr "Django 管理"
 
 #: src/dmoj-wpadmin/test_project/test_project/forms.py:12
 #, python-format
 msgid "Please enter the correct %(username)s and password for an admin account. Note that both fields may be case-sensitive."
-msgstr ""
+msgstr "请为管理员账户输入正确的 %(username)s 和密码。请注意这两个可能都是区分大小写的。"
 
 #: src/dmoj-wpadmin/test_project/test_project/forms.py:32
 #, python-format
 msgid "Please enter the correct %(username)s and password for an user account. Note that both fields may be case-sensitive."
-msgstr ""
+msgstr "请为用户账户输入正确的 %(username)s 和密码。请注意这两个可能都是区分大小写的。"
 
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:27
 msgid "Site"
-msgstr ""
+msgstr "网站"
 
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:38
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:41
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:130
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:133
 msgid "Dashboard"
-msgstr ""
+msgstr "仪表板"
 
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:48
 msgid "Applications"
-msgstr ""
+msgstr "应用程序"
 
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:53
 msgid "Administration"
-msgstr ""
+msgstr "管理"
 
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:64
 msgid "Color theme"
-msgstr ""
+msgstr "颜色主题"
 
 #: src/dmoj-wpadmin/test_project/test_project/wp.py:66
 msgid "Change color theme"
-msgstr ""
+msgstr "更改颜色主题"
 
 #: templates/admin/judge/contest/change_form.html:9
 msgid "Are you sure you want to rejudge ALL the submissions?"
-msgstr ""
+msgstr "您确定您要重新评判所有提交？"
 
 #: templates/admin/judge/contest/change_form.html:17
 #: templates/admin/judge/contest/change_form.html:20
@@ -3287,16 +3289,16 @@ msgstr "评分所有可评分竞赛"
 #: templates/admin/judge/judge/change_form.html:15
 #: templates/admin/judge/judge/change_form.html:18
 msgid "Disconnect"
-msgstr ""
+msgstr "断开连接"
 
 #: templates/admin/judge/judge/change_form.html:20
 #: templates/admin/judge/judge/change_form.html:23
 msgid "Terminate"
-msgstr ""
+msgstr "终止"
 
 #: templates/admin/judge/problem/change_form.html:14
 msgid "View Submissions"
-msgstr ""
+msgstr "查看提交历史"
 
 #: templates/admin/judge/problem/change_form.html:17
 #: templates/user/user-base.html:61
@@ -3437,7 +3439,7 @@ msgstr "于 {time} 时评论"
 msgid "edit %(edits)s"
 msgstr "编辑 %(edits)s"
 
-#: templates/comments/list.html:58 templates/comments/media-js.html:91
+#: templates/comments/list.html:58 templates/comments/media-js.html:96
 msgid "edited"
 msgstr "已编辑"
 
@@ -3451,7 +3453,7 @@ msgstr "回复"
 
 #: templates/comments/list.html:95 templates/comments/votes.html:1
 msgid "Votes"
-msgstr ""
+msgstr "用户评分"
 
 #: templates/comments/list.html:96
 msgid "Hide"
@@ -3463,7 +3465,10 @@ msgid "\n"
 "                                                This comment is hidden due to too much negative feedback.\n"
 "                                                Click <a href=\"javascript:comment_show_content(%(id)s)\">here</a> to view it.\n"
 "                                            "
-msgstr ""
+msgstr "\n"
+"                                                由于过多的负面反馈，该评论被隐藏。\n"
+"                                                点击 <a href=\"javascript:comment_show_content(%(id)s)\">这里查看</a>\n"
+"                                            "
 
 #: templates/comments/list.html:131
 msgid "There are no comments at the moment."
@@ -3483,32 +3488,32 @@ msgstr "发布"
 
 #: templates/comments/list.html:167
 msgid "Comments are disabled on this page."
-msgstr ""
+msgstr "这页面被禁用评论"
 
 #: templates/comments/media-js.html:38
 msgid "Replying to comment"
-msgstr ""
+msgstr "正在回复评论"
 
-#: templates/comments/media-js.html:86
+#: templates/comments/media-js.html:91
 #, python-brace-format
 msgid "edit {edits}"
 msgstr "编辑 {edits}"
 
-#: templates/comments/media-js.html:89
+#: templates/comments/media-js.html:94
 msgid "original"
 msgstr "源语言"
 
 #: templates/comments/votes.html:5
 msgid "Voter"
-msgstr ""
+msgstr "投票者"
 
-#: templates/comments/votes.html:6 templates/user/user-problems.html:99
+#: templates/comments/votes.html:6 templates/user/user-problems.html:101
 msgid "Score"
 msgstr "得分"
 
 #: templates/comments/votes.html:17
 msgid "No votes"
-msgstr ""
+msgstr "没有投票"
 
 #: templates/contest/access_code.html:26
 msgid "Invalid access code."
@@ -3552,11 +3557,11 @@ msgstr "星期六"
 
 #: templates/contest/clone.html:37
 msgid "Enter a new key for the cloned contest:"
-msgstr ""
+msgstr "输入复制竞赛的新代码："
 
 #: templates/contest/clone.html:40 templates/problem/clone.html:40
 msgid "Clone!"
-msgstr ""
+msgstr "复制！"
 
 #: templates/contest/contest-list-tabs.html:7
 msgid "Prev"
@@ -3564,7 +3569,7 @@ msgstr "上个月"
 
 #: templates/contest/contest-list-tabs.html:10
 msgid "Today"
-msgstr ""
+msgstr "今天"
 
 #: templates/contest/contest-list-tabs.html:13
 msgid "Next"
@@ -3598,11 +3603,11 @@ msgstr "隐藏的排名"
 
 #: templates/contest/contest-tabs.html:21
 msgid "MOSS"
-msgstr ""
+msgstr "MOSS"
 
 #: templates/contest/contest-tabs.html:26
 msgid "Clone"
-msgstr ""
+msgstr "复制"
 
 #: templates/contest/contest-tabs.html:38
 #: templates/contest/contest-tabs.html:58
@@ -3627,7 +3632,7 @@ msgstr "参加竞赛"
 
 #: templates/contest/contest-tabs.html:81
 msgid "Log in to participate"
-msgstr ""
+msgstr "登录即可进入"
 
 #: templates/contest/contest.html:37
 msgid "Participating virtually."
@@ -3663,7 +3668,7 @@ msgstr "用户"
 
 #: templates/contest/contest.html:88
 msgid "Editorials"
-msgstr ""
+msgstr "题目讲解"
 
 #: templates/contest/contest.html:114
 msgid "Editorial"
@@ -3679,15 +3684,15 @@ msgstr "计时器在你第一次参加比赛的时候就会启动，比赛开始
 
 #: templates/contest/list.html:65
 msgid "hidden"
-msgstr ""
+msgstr "隐藏"
 
 #: templates/contest/list.html:78
 msgid "private"
-msgstr ""
+msgstr "私有"
 
 #: templates/contest/list.html:83
 msgid "rated"
-msgstr ""
+msgstr "被评分"
 
 #: templates/contest/list.html:131
 msgid "Spectate"
@@ -3699,7 +3704,7 @@ msgstr "加入!"
 
 #: templates/contest/list.html:147
 msgid "Active Contests"
-msgstr ""
+msgstr "正在进行的比赛"
 
 #: templates/contest/list.html:151 templates/contest/list.html:193
 #: templates/contest/list.html:231 templates/contest/list.html:270
@@ -3736,31 +3741,31 @@ msgstr "计时器在你第一次参加比赛的时候就会启动，比赛开始
 
 #: templates/contest/moss.html:28
 msgid "Are you sure you want MOSS the contest?"
-msgstr ""
+msgstr "您确定您要MOSS这个竞赛？"
 
 #: templates/contest/moss.html:33
 msgid "Are you sure you want to delete the MOSS results?"
-msgstr ""
+msgstr "您确定要删除MOSS结果？"
 
 #: templates/contest/moss.html:60
 msgid "No submissions"
-msgstr ""
+msgstr "没有任何提交"
 
 #: templates/contest/moss.html:74
 msgid "Re-MOSS contest"
-msgstr ""
+msgstr "重新MOSS竞赛"
 
 #: templates/contest/moss.html:82
 msgid "Delete MOSS results"
-msgstr ""
+msgstr "删除MOSS结果"
 
 #: templates/contest/private.html:5
 msgid "This contest is private to specific users."
-msgstr ""
+msgstr "这个比赛是对特定用户私密。"
 
 #: templates/contest/private.html:10
 msgid "Additionally, only the following organizations may access this contest:"
-msgstr ""
+msgstr "只有下列组织可能访问此竞赛："
 
 #: templates/contest/private.html:12
 msgid "Only the following organizations may access this contest:"
@@ -3773,27 +3778,27 @@ msgstr "组织"
 #: templates/contest/ranking-table.html:27
 #, python-brace-format
 msgid "Started on {time}"
-msgstr ""
+msgstr "开始时间{time}"
 
 #: templates/contest/ranking-table.html:30
 msgid "Participation ended."
-msgstr ""
+msgstr "竞赛窗口已结束。"
 
 #: templates/contest/ranking-table.html:40
 msgid "Un-Disqualify"
-msgstr ""
+msgstr "取消取消资格"
 
 #: templates/contest/ranking-table.html:43
 msgid "Disqualify"
-msgstr ""
+msgstr "取消资格"
 
 #: templates/contest/ranking.html:169
 msgid "Are you sure you want to disqualify this participation?"
-msgstr ""
+msgstr "您确定要取消此参与资格吗？"
 
 #: templates/contest/ranking.html:174
 msgid "Are you sure you want to un-disqualify this participation?"
-msgstr ""
+msgstr "您确定要取消取消此参与资格吗？"
 
 #: templates/contest/ranking.html:246
 msgid "View user participation"
@@ -3805,11 +3810,12 @@ msgstr "显示机构"
 
 #: templates/contest/stats.html:38
 msgid "Problem Status Distribution"
-msgstr ""
+msgstr "问题状态分布"
 
 #: templates/contest/stats.html:43
 msgid "Problem AC Rate"
-msgstr ""
+msgstr "问题成功率\n"
+"="
 
 #: templates/contest/stats.html:48 templates/stats/language.html:16
 msgid "Submissions by Language"
@@ -3892,15 +3898,15 @@ msgstr "升级"
 
 #: templates/organization/home.html:7
 msgid "Are you sure you want to leave this organization?"
-msgstr ""
+msgstr "您确定要推出此组织吗？"
 
 #: templates/organization/home.html:9
 msgid "You will have to rejoin to show up on the organization leaderboard."
-msgstr ""
+msgstr "您必须重新加入才能显示在组织排行榜上。"
 
 #: templates/organization/home.html:11
 msgid "You will have to request membership in order to join again."
-msgstr ""
+msgstr "您必须申请会员资格才能再次加入。"
 
 #: templates/organization/home.html:24
 msgid "Leave organization"
@@ -4008,11 +4014,15 @@ msgstr "踢出"
 
 #: templates/organization/users.html:34
 msgid "Are you sure you want to kick this user?"
+msgstr "您确定您要踢掉这个用户？"
+
+#: templates/pagedown.html:10
+msgid "Update preview"
 msgstr ""
 
 #: templates/problem/clone.html:37
 msgid "Enter a new code for the cloned problem:"
-msgstr ""
+msgstr "输入复制问题的新代码："
 
 #: templates/problem/data.html:353
 msgid "View YAML"
@@ -4062,6 +4072,10 @@ msgstr "提交！"
 msgid "Add new case"
 msgstr "添加新的用例"
 
+#: templates/problem/data.html:450
+msgid "Save"
+msgstr ""
+
 #: templates/problem/editorial.html:22
 msgid "Remember to use this editorial <b>only</b> when stuck, and <b>not to copy-paste code from it</b>. Please be respectful to the problem author and editorialist. <br><br> <b>Submitting an official solution before solving the problem yourself is a bannable offence.</b>"
 msgstr "记住 <b>只</b> 在没有思路时使用题解，<b>不要从它复制粘贴代码</b>。请尊重题目和题解的作者。 <br><br> <b>在真正解决问题之前提交题解的代码是可以封禁的罪行。</b>"
@@ -4080,7 +4094,7 @@ msgid "Hot problems"
 msgstr "热门问题"
 
 #: templates/problem/list.html:207 templates/problem/list.html:224
-#: templates/problem/search-form.html:30 templates/user/user-problems.html:57
+#: templates/problem/search-form.html:30 templates/user/user-problems.html:59
 msgid "Category"
 msgstr "分类"
 
@@ -4095,74 +4109,74 @@ msgstr "AC%%"
 
 #: templates/problem/manage_submission.html:55
 msgid "Leave empty to not filter by language"
-msgstr ""
+msgstr "留空则不按语言过滤"
 
 #: templates/problem/manage_submission.html:60
 msgid "Leave empty to not filter by result"
-msgstr ""
+msgstr "留空则不按结果过滤"
 
 #: templates/problem/manage_submission.html:79
 msgid "Need valid values for both start and end IDs."
-msgstr ""
+msgstr "开始和结束ID必须有效。"
 
 #: templates/problem/manage_submission.html:82
 msgid "End ID must be after start ID."
-msgstr ""
+msgstr "结束ID必须在开始 ID之后。"
 
 #: templates/problem/manage_submission.html:90
 #, python-brace-format
 msgid "You are about to rejudge {count} submissions. Are you sure you want to do this?"
-msgstr ""
+msgstr "您将重新评分{count}提交，是否确认？"
 
 #: templates/problem/manage_submission.html:96
 msgid "You are about to rejudge a few submissions. Are you sure you want to do this?"
-msgstr ""
+msgstr "您将重新评分一些提交，是否确认？"
 
 #: templates/problem/manage_submission.html:115
 msgid "Rejudge Submissions"
-msgstr ""
+msgstr "重新评分所有提交"
 
 #: templates/problem/manage_submission.html:120
 msgid "Filter by ID:"
-msgstr ""
+msgstr "通过ID过滤："
 
 #: templates/problem/manage_submission.html:123
 msgid "Starting ID:"
-msgstr ""
+msgstr "开始ID："
 
 #: templates/problem/manage_submission.html:127
 msgid "Ending ID:"
-msgstr ""
+msgstr "结束ID："
 
 #: templates/problem/manage_submission.html:131
 msgid "This range includes both endpoints."
-msgstr ""
+msgstr "这个范围包括两个终点。"
 
 #: templates/problem/manage_submission.html:134
 msgid "Filter by language:"
-msgstr ""
+msgstr "按语言筛选："
 
 #: templates/problem/manage_submission.html:150
 msgid "Rejudge selected submissions"
-msgstr ""
+msgstr "重新评分选定的提交"
 
 #: templates/problem/manage_submission.html:157
 msgid "Rescore Everything"
-msgstr ""
+msgstr "全部重新评分"
 
 #: templates/problem/manage_submission.html:158
 #, python-format
 msgid "This will rescore %(count)d submissions."
-msgstr ""
+msgstr "这将重新评分%(count)d个提交。"
 
 #: templates/problem/manage_submission.html:162
 #, python-format
 msgid "Are you sure you want to rescore %(count)d submissions?"
-msgstr ""
+msgstr "您确定您要重新评判%(count)d个提交？"
 
 #: templates/problem/manage_submission.html:163
 msgid "Rescore all submissions"
-msgstr ""
+msgstr "重新评分所有提交"
 
 #: templates/problem/problem.html:91
 msgid "View as PDF"
@@ -4209,11 +4223,11 @@ msgstr "编辑测试数据"
 
 #: templates/problem/problem.html:147
 msgid "My tickets"
-msgstr ""
+msgstr "我的工单"
 
 #: templates/problem/problem.html:155
 msgid "Manage submissions"
-msgstr ""
+msgstr "管理提交"
 
 #: templates/problem/problem.html:168
 msgid "Points:"
@@ -4248,11 +4262,11 @@ msgstr "没有支持 %(lang)s 的裁判服务器。"
 #: templates/problem/problem.html:256
 msgid "Judge:"
 msgid_plural "Judges:"
-msgstr[0] ""
+msgstr[0] "裁判服务器"
 
 #: templates/problem/problem.html:273
 msgid "none available"
-msgstr ""
+msgstr "无可用项"
 
 #: templates/problem/problem.html:298
 msgid "Request clarification"
@@ -4264,11 +4278,11 @@ msgstr "反馈问题"
 
 #: templates/problem/raw.html:62
 msgid "Time Limit:"
-msgstr ""
+msgstr "时间限制："
 
 #: templates/problem/raw.html:71
 msgid "Memory Limit:"
-msgstr ""
+msgstr "内存限制："
 
 #: templates/problem/search-form.html:2
 msgid "Problem search"
@@ -4314,7 +4328,7 @@ msgstr "随机"
 
 #: templates/problem/submit.html:117
 msgid "Your source code must contain at most 65536 characters."
-msgstr ""
+msgstr "您的程序必须最多包含 65536 个字符。"
 
 #: templates/problem/submit.html:204
 #, python-format
@@ -4391,6 +4405,10 @@ msgstr "您的密码已设置。您可以现在登录。"
 msgid "Reset Password"
 msgstr "重置密码"
 
+#: templates/registration/password_reset_confirm.html:12
+msgid "Invalid password reset link."
+msgstr ""
+
 #: templates/registration/password_reset_done.html:4
 msgid "We've emailed you instructions for setting your password. You should be receiving them shortly."
 msgstr "我们已经通过电子邮件向您发送设置密码的说明。你应该很快就会收到。"
@@ -4398,6 +4416,21 @@ msgstr "我们已经通过电子邮件向您发送设置密码的说明。你应
 #: templates/registration/password_reset_done.html:5
 msgid "If you don't receive an email, please make sure you've entered the address you registered with, and check your spam folder."
 msgstr "如果您没有收到电子邮件，请确保您打开的是您注册时所用的邮箱，并检查您的垃圾邮件文件夹。"
+
+#: templates/registration/password_reset_email.html:9
+#, python-format
+msgid "\n"
+"<b>Forgot your password on the %(site_name)s? Don't worry!</b><br><br>\n"
+"To reset the password for your account \"%(username)s\", click the button below.\n"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:17
+msgid "See you soon! If you have problems resetting your email, feel free to shoot us an email at"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:19
+msgid "See you soon!"
+msgstr ""
 
 #: templates/registration/password_reset_email.txt:1
 #, python-format
@@ -4433,7 +4466,7 @@ msgstr "继续 >"
 
 #: templates/registration/registration_closed.html:3
 msgid "Registration is currently closed. Please contact an administrator."
-msgstr ""
+msgstr "注册目前已关闭。请联系管理员。"
 
 #: templates/registration/registration_complete.html:3
 msgid "You have successfully been registered. An email has been sent to the email address you provided to confirm your registration."
@@ -4479,58 +4512,58 @@ msgstr "注册！"
 
 #: templates/registration/totp_disable.html:38
 msgid "To protect your account, you must first authenticate before you can disable Two Factor Authentication."
-msgstr ""
+msgstr "为了保护您的帐户，您必须先进行身份验证才能禁用两因素认证。"
 
 #: templates/registration/totp_disable.html:45
 msgid "Enter the 6-digit code generated by your app or one of your 16-digit scratch codes:"
-msgstr ""
+msgstr "输入您应用生成的6位数代码或者一个16位一次性代码："
 
 #: templates/registration/totp_disable.html:48
 msgid "Disable Two Factor Authentication"
-msgstr ""
+msgstr "禁用两因素认证。"
 
 #: templates/registration/totp_enable.html:75
 msgid "Scan this code with your authenticator app:"
-msgstr ""
+msgstr "使用身份验证应用扫描这个二维码"
 
 #: templates/registration/totp_enable.html:76
 msgid "QR code"
-msgstr ""
+msgstr "二维码"
 
 #: templates/registration/totp_enable.html:77
 msgid "Or enter this code manually:"
-msgstr ""
+msgstr "或者手动输入此代码："
 
 #: templates/registration/totp_enable.html:88
 msgid "Enter the 6-digit code generated by your app:"
-msgstr ""
+msgstr "输入您应用生成的6位数代码："
 
 #: templates/registration/totp_enable.html:91
 msgid "Enable Two Factor Authentication"
-msgstr ""
+msgstr "启用两因素认证"
 
 #: templates/registration/two_factor_auth.html:40
 #: templates/user/edit-profile.html:161
 msgid "WebAuthn is not supported by your browser."
-msgstr ""
+msgstr "你的浏览器不支持 WebAuthn。"
 
 #: templates/registration/two_factor_auth.html:61
 #: templates/user/edit-profile.html:185
 msgid "Failed to contact server."
-msgstr ""
+msgstr "联系服务器失败。"
 
 #: templates/registration/two_factor_auth.html:84
 msgid "Enter the 6-digit code generated by your app or one of your 16-character scratch codes:"
-msgstr ""
+msgstr "输入您应用生成的6位数代码或者一个16位一次性代码："
 
 #: templates/registration/two_factor_auth.html:90
 msgid "Use security key"
-msgstr ""
+msgstr "使用安全密钥"
 
 #: templates/registration/two_factor_auth.html:96
 #, python-format
 msgid "If you lost your authentication device and are unable to use your scratch codes, please contact us at %(email)s."
-msgstr ""
+msgstr "如果您丢失了您的身份验证设备且无法使用您的验证码，请联系我们 %(email)s。"
 
 #: templates/stats/language.html:11
 msgid "Submission Statistics"
@@ -4587,6 +4620,11 @@ msgstr "裁判服务器"
 msgid "Version Matrix"
 msgstr "版本矩阵"
 
+#: templates/submission/internal-error-message.html:3
+#, python-format
+msgid "An internal error occurred while grading, and the %(SITE_NAME)s administrators have been notified.<br> In the meantime, try resubmitting in a few seconds."
+msgstr ""
+
 #: templates/submission/internal-error-message.html:8
 msgid "An internal error occurred while grading."
 msgstr "评分时裁判服务端发生了内部错误。"
@@ -4609,7 +4647,7 @@ msgstr "提交筛选"
 
 #: templates/submission/list.html:345
 msgid "Total:"
-msgstr ""
+msgstr "总计："
 
 #: templates/submission/list.html:355
 msgid "You were disconnected. Refresh to show latest updates."
@@ -4630,11 +4668,11 @@ msgstr "重新评分"
 
 #: templates/submission/row.html:64
 msgid "This submission has been locked, and cannot be rejudged."
-msgstr ""
+msgstr "此提交已被锁定，无法重新评分。"
 
 #: templates/submission/row.html:65
 msgid "locked"
-msgstr ""
+msgstr "已锁定"
 
 #: templates/submission/row.html:71
 msgid "admin"
@@ -4698,25 +4736,29 @@ msgstr "您的输出（部分）"
 
 #: templates/submission/status-testcases.html:113
 msgid "Judge feedback"
-msgstr ""
+msgstr "裁判反馈"
 
 #: templates/submission/status-testcases.html:129
 msgid "Resources:"
-msgstr ""
+msgstr "资源："
 
 #: templates/submission/status-testcases.html:138
+msgid "Maximum runtime on single test case:"
+msgstr ""
+
+#: templates/submission/status-testcases.html:143
 msgid "Final pretest score:"
 msgstr "最终预测试得分："
 
-#: templates/submission/status-testcases.html:140
+#: templates/submission/status-testcases.html:145
 msgid "Final score:"
 msgstr "最终得分："
 
-#: templates/submission/status-testcases.html:154
+#: templates/submission/status-testcases.html:159
 msgid "Passing pretests does not guarantee a full score on system tests."
 msgstr "通过预测试不代表程序可以通过完整测试。"
 
-#: templates/submission/status-testcases.html:157
+#: templates/submission/status-testcases.html:162
 msgid "Submission aborted!"
 msgstr "评分终止！"
 
@@ -4726,7 +4768,7 @@ msgstr "查看源代码"
 
 #: templates/submission/status.html:100
 msgid "Press Ctrl-Enter or Command-Enter to abort."
-msgstr ""
+msgstr "按下 Ctrl-Enter 或 Command-Enter 已中止。"
 
 #: templates/submission/status.html:102
 msgid "Abort"
@@ -4765,15 +4807,16 @@ msgstr "只显示我的工单"
 msgid "Filing user"
 msgstr "归档用户"
 
-#: templates/ticket/list.html:237
+#: templates/ticket/list.html:237 templates/ticket/ticket.html:361
 msgid "Assignee"
-msgstr "被分配的人"
+msgid_plural "Assignees"
+msgstr[0] "处理人"
 
 #: templates/ticket/list.html:260
 msgid "Title"
 msgstr "标题"
 
-#: templates/ticket/list.html:262 templates/ticket/ticket.html:360
+#: templates/ticket/list.html:262
 msgid "Assignees"
 msgstr "被分配的人"
 
@@ -4793,23 +4836,23 @@ msgstr "帖子"
 msgid "Associated object"
 msgstr "相关的项目"
 
-#: templates/ticket/ticket.html:365
+#: templates/ticket/ticket.html:371
 msgid "No one is assigned."
 msgstr "没有人被分配到这个工单。"
 
-#: templates/ticket/ticket.html:371
+#: templates/ticket/ticket.html:377
 msgid "Close ticket"
 msgstr "关闭工单"
 
-#: templates/ticket/ticket.html:373
+#: templates/ticket/ticket.html:379
 msgid "Reopen ticket"
 msgstr "重开工单"
 
-#: templates/ticket/ticket.html:377
+#: templates/ticket/ticket.html:383
 msgid "Assignee notes"
 msgstr "受让人说明"
 
-#: templates/ticket/ticket.html:384 templates/widgets/select_all.html:4
+#: templates/ticket/ticket.html:390 templates/widgets/select_all.html:4
 msgid "Nothing here."
 msgstr "暂无内容！"
 
@@ -4823,45 +4866,45 @@ msgstr "用户名搜索…"
 
 #: templates/user/edit-profile.html:109
 msgid "Are you sure you want to generate or regenerate your API token?"
-msgstr ""
+msgstr "您确定要生成或重新生成您的API令牌吗？"
 
 #: templates/user/edit-profile.html:110
 msgid "This will invalidate any previous API tokens."
-msgstr ""
+msgstr "这将使任何之前的 API 令牌无效。"
 
 #: templates/user/edit-profile.html:111
 msgid "It also allows access to your account without Two-factor Authentication."
-msgstr ""
+msgstr "它还允许不需要双重身份验证而访问您的帐户。"
 
 #: templates/user/edit-profile.html:112
 msgid "You will not be able to view your api token after you leave this page!"
-msgstr ""
+msgstr "离开此页面后，您将无法查看您的API令牌！"
 
 #: templates/user/edit-profile.html:113 templates/user/edit-profile.html:207
 msgid "Generating..."
-msgstr ""
+msgstr "正在生成…"
 
 #: templates/user/edit-profile.html:121 templates/user/edit-profile.html:243
 #: templates/user/edit-profile.html:370 templates/user/edit-profile.html:389
 msgid "Regenerate"
-msgstr ""
+msgstr "重新生成"
 
 #: templates/user/edit-profile.html:127 templates/user/edit-profile.html:391
 msgid "Remove"
-msgstr ""
+msgstr "删除"
 
 #: templates/user/edit-profile.html:137
 msgid "Are you sure you want to remove your API token?"
-msgstr ""
+msgstr "您确定要删除您的API令牌吗？"
 
 #: templates/user/edit-profile.html:144 templates/user/edit-profile.html:374
 #: templates/user/edit-profile.html:395
 msgid "Generate"
-msgstr ""
+msgstr "生成"
 
 #: templates/user/edit-profile.html:190
 msgid "Are you sure you want to delete this security key?"
-msgstr ""
+msgstr "您确定要删除此安全密钥吗？"
 
 #: templates/user/edit-profile.html:279
 msgid "Self-description"
@@ -4889,47 +4932,47 @@ msgstr "更改密码"
 
 #: templates/user/edit-profile.html:355
 msgid "Two-factor Authentication is enabled"
-msgstr ""
+msgstr "已激活双元素认证"
 
 #: templates/user/edit-profile.html:357
 msgid "Two-factor Authentication is disabled"
-msgstr ""
+msgstr "已禁用双元素认证"
 
 #: templates/user/edit-profile.html:362 templates/user/edit-profile.html:364
 msgid "Disable"
-msgstr ""
+msgstr "禁用"
 
 #: templates/user/edit-profile.html:367
 msgid "Scratch Codes:"
-msgstr ""
+msgstr "一次性代码："
 
 #: templates/user/edit-profile.html:371 templates/user/edit-profile.html:392
 msgid "Hidden"
-msgstr ""
+msgstr "隐藏"
 
 #: templates/user/edit-profile.html:380
 msgid "Enable"
-msgstr ""
+msgstr "启用"
 
 #: templates/user/edit-profile.html:386
 msgid "API Token"
-msgstr ""
+msgstr "API令牌"
 
 #: templates/user/edit-profile.html:403
 msgid "Security keys"
-msgstr ""
+msgstr "安全密钥"
 
 #: templates/user/edit-profile.html:413
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: templates/user/edit-profile.html:420
 msgid "Enter a name for this key"
-msgstr ""
+msgstr "输入此密钥的名称"
 
 #: templates/user/edit-profile.html:421
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: templates/user/edit-profile.html:429
 msgid "User-script"
@@ -4960,43 +5003,43 @@ msgstr "%(pp).0fpp"
 
 #: templates/user/prepare-data.html:64
 msgid "Are you sure you want to prepare a download?"
-msgstr ""
+msgstr "您确定要准备下载吗？"
 
 #: templates/user/prepare-data.html:79
 msgid "We are currently preparing your data."
-msgstr ""
+msgstr "我们正在准备您的数据。"
 
 #: templates/user/prepare-data.html:81
 msgid "Track progress"
-msgstr ""
+msgstr "曲目进度"
 
 #: templates/user/prepare-data.html:86
 msgid "Once your data is ready, you will find a download link on this page."
-msgstr ""
+msgstr "一旦您的数据准备就绪，您将在此页面上找到一个下载链接。"
 
 #: templates/user/prepare-data.html:103
 msgid "Submissions"
-msgstr ""
+msgstr "提交历史"
 
 #: templates/user/prepare-data.html:120
 msgid "Prepare new download"
-msgstr ""
+msgstr "准备新的下载"
 
 #: templates/user/prepare-data.html:122
 msgid "Prepare download"
-msgstr ""
+msgstr "准备下载"
 
 #: templates/user/prepare-data.html:126
 msgid "Download prepared data"
-msgstr ""
+msgstr "下载已准备的数据"
 
 #: templates/user/prepare-data.html:132
 msgid "Your data is ready!"
-msgstr ""
+msgstr "您的数据准备就绪！"
 
 #: templates/user/prepare-data.html:136
 msgid "Download data"
-msgstr ""
+msgstr "下载数据"
 
 #: templates/user/user-about.html:14
 msgid "From"
@@ -5004,7 +5047,7 @@ msgstr "组织"
 
 #: templates/user/user-about.html:25
 msgid "Admin Notes"
-msgstr ""
+msgstr "管理员备注"
 
 #: templates/user/user-about.html:33 templates/user/user-tabs.html:4
 msgid "About"
@@ -5018,11 +5061,55 @@ msgstr "您还没有共享的任何信息。"
 msgid "This user has not shared any information."
 msgstr "此用户没有共享的任何信息。"
 
+#: templates/user/user-about.html:59
+msgid "Sun"
+msgstr "星期日"
+
+#: templates/user/user-about.html:64
+msgid "Mon"
+msgstr "星期一"
+
+#: templates/user/user-about.html:69
+msgid "Tues"
+msgstr "星期二"
+
+#: templates/user/user-about.html:74
+msgid "Wed"
+msgstr "星期三"
+
+#: templates/user/user-about.html:79
+msgid "Thurs"
+msgstr "星期四"
+
+#: templates/user/user-about.html:84
+msgid "Fri"
+msgstr "星期五"
+
+#: templates/user/user-about.html:89
+msgid "Sat"
+msgstr "星期六"
+
+#: templates/user/user-about.html:98
+msgid "Less"
+msgstr "收起"
+
+#: templates/user/user-about.html:104
+msgid "More"
+msgstr "更多"
+
+#: templates/user/user-about.html:112
+msgid "Rating history"
+msgstr ""
+
+#: templates/user/user-about.html:183
+msgid "past year"
+msgstr "去年"
+
 #: templates/user/user-base.html:42
 #, python-format
 msgid "%(counter)s problem solved"
 msgid_plural "%(counter)s problems solved"
-msgstr[0] ""
+msgstr[0] "%(counter)s 问题解决了"
 
 #: templates/user/user-base.html:50
 msgid "Rank by points:"
@@ -5032,52 +5119,58 @@ msgstr "得分排名："
 msgid "Total points:"
 msgstr "总得分："
 
-#: templates/user/user-base.html:68
+#: templates/user/user-base.html:67
+#, python-format
+msgid "%(counter)s contest written"
+msgid_plural "%(counter)s contests written"
+msgstr[0] "%(counter)s 场比赛已加入"
+
+#: templates/user/user-base.html:74
 msgid "Rank by rating:"
 msgstr "竞赛评分排名："
 
-#: templates/user/user-base.html:70
+#: templates/user/user-base.html:76
 msgid "Rating:"
 msgstr "竞赛评分："
 
-#: templates/user/user-base.html:71
+#: templates/user/user-base.html:77
 msgid "Volatility:"
 msgstr "波动性："
 
-#: templates/user/user-base.html:72
+#: templates/user/user-base.html:78
 msgid "Min. rating:"
 msgstr "最低评分："
 
-#: templates/user/user-base.html:73
+#: templates/user/user-base.html:79
 msgid "Max rating:"
 msgstr "最高评分："
 
-#: templates/user/user-problems.html:35
-msgid "Points Breakdown"
+#: templates/user/user-problems.html:37
+msgid "Points breakdown"
 msgstr "分数细分"
 
-#: templates/user/user-problems.html:41
+#: templates/user/user-problems.html:43
 msgid "Load more..."
 msgstr "加载更多..."
 
-#: templates/user/user-problems.html:45
+#: templates/user/user-problems.html:47
 msgid "This user has not yet solved any problems."
 msgstr "此用户尚未解决任何问题。"
 
-#: templates/user/user-problems.html:51
-msgid "Authored Problems"
+#: templates/user/user-problems.html:53
+msgid "Authored problems"
 msgstr "创作的题目"
 
-#: templates/user/user-problems.html:83
+#: templates/user/user-problems.html:85
 msgid "Hide problems I've solved"
 msgstr "隐藏我已经解决的题目"
 
-#: templates/user/user-problems.html:93
+#: templates/user/user-problems.html:95
 #, python-format
 msgid "%(points).1f points"
 msgstr "%(points).1f 分"
 
-#: templates/user/user-problems.html:110
+#: templates/user/user-problems.html:112
 #, python-format
 msgid "%(points)s / %(total)s"
 msgstr "%(points)s / %(total)s"
